@@ -30,7 +30,6 @@ This project is a real-time gesture recognition system that translates hand gest
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/ndaadhi18/Gesture-To-Speech-Project
-    cd "Mini Project"
     ```
 
 2.  **Install dependencies:**
@@ -38,10 +37,13 @@ This project is a real-time gesture recognition system that translates hand gest
     pip install -r requirements.txt
     ```
     *(Note: A `requirements.txt` file is not provided. You may need to create one based on the imports in the Python files.)*
-
-3.  **Run the application:**
+3. **Move into web app directory:**
     ```bash
-    python Codebase/gesture_web_app_UI_scripts/app.py
+    cd Codebase\gesture_web_app_UI_scripts
+    ```
+4.  **Run the application:**
+    ```bash
+    python app.py
     ```
 
 4.  **Open your browser** and navigate to `http://127.0.0.1:5000` to see the application in action.
