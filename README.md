@@ -36,7 +36,7 @@ This project is a real-time gesture recognition system that translates hand gest
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: A `requirements.txt` file is not provided. You may need to create one based on the imports in the Python files.)*
+    
 3. **Move into web app directory:**
     ```bash
     cd Codebase\gesture_web_app_UI_scripts
